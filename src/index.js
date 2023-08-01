@@ -1,5 +1,10 @@
+import _ from 'lodash';
 import './style.css';
 
+import icon from './assets/logo.png';
+import img_cocktail from './assets/cocktail.png';
+import img_wine from './assets/wine.png';
+import img_soda from './assets/soda.png';
 //Tab Elements
 const tabs = (() =>{
     
@@ -78,7 +83,7 @@ const tabs = (() =>{
         cocktail.classList.add(`choice`);
         const imgCocktail = document.createElement(`img`);
         imgCocktail.classList.add(`img-choice`);
-        imgCocktail.setAttribute(`src`,`../src/cocktail.png`);
+        imgCocktail.setAttribute(`src`,`${img_cocktail}`);
         const cocktailH3 = document.createElement(`h3`);
         cocktailH3.innerHTML = `Cocktail | P800`;
         
@@ -87,7 +92,7 @@ const tabs = (() =>{
         wine.classList.add(`choice`);
         const imgWine = document.createElement(`img`);
         imgWine.classList.add(`img-choice`);
-        imgWine.setAttribute(`src`,`../src/wine.png`);
+        imgWine.setAttribute(`src`,`${img_wine}`);
         const wineH3 = document.createElement(`h3`);
         wineH3.innerHTML = `Wine | P2300`;
 
@@ -96,7 +101,7 @@ const tabs = (() =>{
         soda.classList.add(`choice`);
         const imgSoda = document.createElement(`img`);
         imgSoda.classList.add(`img-choice`);
-        imgSoda.setAttribute(`src`,`../src/soda.png`);
+        imgSoda.setAttribute(`src`,`${img_soda}`);
         const sodaH3 = document.createElement(`h3`);
         sodaH3.innerHTML = `Soda | P200`;
         
@@ -171,7 +176,7 @@ const component = (() =>{
         logo.classList.add(`logo`);
         const imgLogo = document.createElement(`img`);
         imgLogo.classList.add(`img-logo`);
-        imgLogo.setAttribute(`src`,`../src/logo.png`);
+        imgLogo.setAttribute(`src`,`${icon}`);
         const h1 = document.createElement(`h1`);
         h1.innerHTML = `La <span>Bar</span>`;
 
