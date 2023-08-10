@@ -1,3 +1,8 @@
 # Bar-Page
 
-A bar website that utilizing DOM for structuring HTML and webpack for module bundler
+A bar landing webpage which its HTML structure was built purely with DOM
+
+Tech stack used:
+  - HTML
+  - CSS
+  - Vanilla JavaScript
