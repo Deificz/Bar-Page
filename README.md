@@ -6,5 +6,6 @@ Tech stack used:
   - HTML
   - CSS
   - Vanilla JavaScript
+  - Webpack
 
 **Live preview:** https://deificz.github.io/Bar-Page/
